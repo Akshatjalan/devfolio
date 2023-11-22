@@ -39,12 +39,12 @@ html {
 .pageLinks {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 36px;
   color: #8a8a93;
 }
 
 .pageLinks a {
-  font-size: 16px;
+  font-size: 18px;
   display: flex;
   color: #8a8a93;
   text-decoration: none;
@@ -71,7 +71,7 @@ html {
   color: #8a8a93;
   padding: 40px;
   border-radius: 20px;
-  font-size: 42px;
+  font-size: 44px;
   font-weight: 500;
   letter-spacing: -2px;
   width: 400px;
@@ -218,7 +218,7 @@ html {
   font-size: 24px;
   font-weight: 500;
   flex-grow: 1;
-  padding: 20px;
+  padding: 16px;
 }
 .socialLink:hover {
   background-color: #ff5e1a;
@@ -235,7 +235,7 @@ html {
   font-size: 24px;
   font-weight: 500;
   flex-grow: 1;
-  padding: 20px;
+  padding: 16px;
 }
 .socialLink1:hover {
   background-color: #0077b5;
@@ -252,7 +252,7 @@ html {
   font-size: 24px;
   font-weight: 500;
   flex-grow: 1;
-  padding: 20px;
+  padding: 16px;
 }
 .socialLink2:hover {
   background-color: #fff;
@@ -270,7 +270,7 @@ html {
   font-size: 24px;
   font-weight: 500;
   flex-grow: 1;
-  padding: 20px;
+  padding: 16px;
 }
 .socialLink3:hover {
   background-color: #d62976;
@@ -287,10 +287,145 @@ html {
   font-size: 24px;
   font-weight: 500;
   flex-grow: 1;
-  padding: 20px;
+  padding: 16px;
 }
 .socialLink4:hover {
   background-color: #3f833f;
   transition: all ease-in-out 0.4s;
   cursor: pointer;
+}
+
+/* SMALL DESKTOP VIEW */
+
+@media (max-width: 1550px) {
+  .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .pageLinks {
+    display: none;
+  }
+
+  .about {
+    flex-direction: column;
+    height: 70vh;
+  }
+
+  .nameSection {
+    padding: 32px;
+    font-size: 32px;
+    letter-spacing: -1px;
+    width: auto;
+  }
+
+  .aboutSection {
+    gap: 4px;
+    padding: 20px;
+    font-size: 40px;
+    letter-spacing: -2px;
+    text-align: center;
+  }
+
+  .myPic {
+    height: 160px;
+  }
+
+  .fieldName {
+    font-size: 28px;
+  }
+
+  .socials {
+    display: flex;
+    overflow: scroll;
+  }
+  .socials > a {
+    font-size: 20px;
+    padding: 18px;
+    border-radius: 20px;
+  }
+  .socials > div {
+    font-size: 20px;
+    padding: 18px;
+    border-radius: 20px;
+  }
+  .socials::-webkit-scrollbar {
+    display: none; /* hide scrollbar */
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* MOBILE VIEW */
+
+@media (max-width: 600px) {
+  .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .pageLinks {
+    display: none;
+  }
+
+  .about {
+    flex-direction: column;
+    height: 70vh;
+  }
+
+  .aboutSection {
+    gap: 12px;
+    padding: 12px;
+    font-size: 28px;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+
+  .nameSection {
+    padding: 24px;
+    font-size: 24px;
+    letter-spacing: -1px;
+    width: auto;
+  }
+
+  .myPic {
+    height: 140px;
+  }
+
+  .fieldName {
+    font-size: 22px;
+  }
+
+  .socials {
+    display: flex;
+    overflow: scroll;
+  }
+  .socials > a {
+    font-size: 20px;
+    padding: 18px;
+    border-radius: 20px;
+  }
+  .socials > div {
+    font-size: 20px;
+    padding: 18px;
+    border-radius: 20px;
+  }
+  .socials::-webkit-scrollbar {
+    display: none; /* hide scrollbar */
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills > div {
+    font-size: 32px;
+  }
 }
