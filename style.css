@@ -217,7 +217,6 @@ html {
   align-items: center;
   justify-content: space-around;
   padding: 20px;
-  width: 100%;
 }
 
 .projectLink {
@@ -485,5 +484,40 @@ html {
   }
   .skills > div {
     font-size: 32px;
+  }
+
+  /* PROJECTS SECTION */
+  .projects {
+    position: relative;
+  }
+
+  .projectHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .projectLink {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    height: 40px;
+    padding: 12px;
+    z-index: 1;
+  }
+
+  .projectName {
+    font-size: 28px;
+  }
+
+  .projectDesc {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .projectImg {
+    border-radius: 18px;
   }
 }
