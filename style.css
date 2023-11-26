@@ -354,6 +354,45 @@ html {
   cursor: pointer;
 }
 
+/* CONTACT SECTION */
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #131315;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  height: 28dvh;
+}
+
+.contactName {
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -1.6px;
+}
+
+.contactButton {
+  text-align: center;
+  background-color: #ff5e1a;
+  padding: 20px;
+  border-radius: 40px;
+  width: 60%;
+  font-weight: 500;
+}
+
+.contactButton button {
+  text-decoration: none;
+  color: #fff;
+  font-size: 36px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  letter-spacing: -1px;
+}
+
 /* SMALL DESKTOP VIEW */
 
 @media (max-width: 1550px) {
@@ -501,8 +540,8 @@ html {
 
   .projectLink {
     position: absolute;
-    bottom: 8px;
-    right: 8px;
+    bottom: 24px;
+    right: 20px;
     height: 40px;
     padding: 12px;
     z-index: 1;
@@ -519,5 +558,25 @@ html {
 
   .projectImg {
     border-radius: 18px;
+  }
+
+  /* CONTACT SECTION */
+
+  .contact {
+    height: 24dvh;
+  }
+
+  .contactName {
+    font-size: 36px;
+    letter-spacing: -1.2px;
+  }
+
+  .contactButton {
+    width: 88%;
+  }
+
+  .contactButton button {
+    font-size: 20px;
+    letter-spacing: 0px;
   }
 }
