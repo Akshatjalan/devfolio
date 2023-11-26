@@ -92,7 +92,7 @@ html {
   padding: 20px;
   border-radius: 20px;
   font-size: 56px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -3px;
 }
 
@@ -123,7 +123,7 @@ html {
   color: #fff;
   border-radius: 20px;
   font-size: 56px;
-  font-weight: 500;
+  font-weight: 600;
   flex-grow: 1;
 }
 
@@ -135,7 +135,7 @@ html {
   color: #fff;
   border-radius: 20px;
   font-size: 56px;
-  font-weight: 500;
+  font-weight: 600;
   flex-grow: 1;
 }
 
@@ -147,7 +147,7 @@ html {
   color: #fff;
   border-radius: 20px;
   font-size: 56px;
-  font-weight: 500;
+  font-weight: 600;
   flex-grow: 1;
 }
 
@@ -165,8 +165,6 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-size: 28px;
-  font-weight: 500;
   gap: 10px;
 }
 
@@ -193,7 +191,7 @@ html {
   color: #fff;
   border-radius: 20px;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* PROJECTS SECTION */
@@ -235,8 +233,9 @@ html {
 .projectName {
   padding: 20px;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
+  letter-spacing: -1.5px;
 }
 
 .projectDesc {
@@ -365,12 +364,12 @@ html {
   color: #fff;
   padding: 20px;
   border-radius: 20px;
-  height: 28dvh;
+  height: 24dvh;
 }
 
 .contactName {
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -1.6px;
 }
 
@@ -380,7 +379,6 @@ html {
   padding: 20px;
   border-radius: 40px;
   width: 60%;
-  font-weight: 500;
 }
 
 .contactButton button {
@@ -391,6 +389,29 @@ html {
   border: none;
   cursor: pointer;
   letter-spacing: -1px;
+  font-weight: 500;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131315;
+  color: #fff;
+  padding: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 44px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.8px;
+}
+
+.footerRight {
+  font-size: 18px;
+  color: #8a8a93;
 }
 
 /* SMALL DESKTOP VIEW */
@@ -563,11 +584,11 @@ html {
   /* CONTACT SECTION */
 
   .contact {
-    height: 24dvh;
+    height: 20dvh;
   }
 
   .contactName {
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing: -1.2px;
   }
 
@@ -578,5 +599,14 @@ html {
   .contactButton button {
     font-size: 20px;
     letter-spacing: 0px;
+  }
+
+  /* FOOTER SECTION */
+
+  .footer {
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
   }
 }
