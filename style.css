@@ -5,6 +5,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+::selection {
+  background-color: #000;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -111,18 +115,20 @@ html {
 
 .skills {
   display: flex;
-  height: 48vh;
+  height: 40vh;
   gap: 10px;
 }
 
 .frontendSection {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 32px;
   background-color: #131315;
   color: #fff;
   border-radius: 20px;
-  font-size: 56px;
+  font-size: 44px;
   font-weight: 600;
   flex-grow: 1;
 }
@@ -225,7 +231,7 @@ html {
   transition: all ease-in-out 0.2s;
 }
 .projectLink:hover {
-  background-color: #ff5e1a;
+  background-color: #ba0e32;
   transform: scale(1.05);
   cursor: pointer;
 }
@@ -269,7 +275,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ff5e1a;
+  background-color: #ba0e32;
   color: #fff;
   border-radius: 36px;
   font-size: 24px;
@@ -375,7 +381,7 @@ html {
 
 .contactButton {
   text-align: center;
-  background-color: #ff5e1a;
+  background-color: #ba0e32;
   padding: 20px;
   border-radius: 40px;
   width: 60%;
