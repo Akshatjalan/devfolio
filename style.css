@@ -275,7 +275,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ba0e32;
+  background-color: #131315;
   color: #fff;
   border-radius: 36px;
   font-size: 24px;
@@ -284,78 +284,8 @@ html {
   padding: 16px;
 }
 .socialLink:hover {
-  background-color: #fff;
-  color: #131315;
-  transition: all ease-in-out 0.4s;
-  cursor: pointer;
-}
-.socialLink1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #131315;
-  color: #fff;
-  border-radius: 36px;
-  font-size: 24px;
-  font-weight: 500;
-  flex-grow: 1;
-  padding: 16px;
-}
-.socialLink1:hover {
-  background-color: #0077b5;
-  transition: all ease-in-out 0.4s;
-  cursor: pointer;
-}
-.socialLink2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #131315;
-  color: #fff;
-  border-radius: 36px;
-  font-size: 24px;
-  font-weight: 500;
-  flex-grow: 1;
-  padding: 16px;
-}
-.socialLink2:hover {
-  background-color: #fff;
-  color: #131315;
-  transition: all ease-in-out 0.4s;
-  cursor: pointer;
-}
-.socialLink3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #131315;
-  color: #fff;
-  border-radius: 36px;
-  font-size: 24px;
-  font-weight: 500;
-  flex-grow: 1;
-  padding: 16px;
-}
-.socialLink3:hover {
-  background-color: #d62976;
-  transition: all ease-in-out 0.4s;
-  cursor: pointer;
-}
-.socialLink4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #131315;
-  color: #fff;
-  border-radius: 36px;
-  font-size: 24px;
-  font-weight: 500;
-  flex-grow: 1;
-  padding: 16px;
-}
-.socialLink4:hover {
-  background-color: #3f833f;
-  transition: all ease-in-out 0.4s;
+  background-color: #ba0e32;
+  transition: all ease-in-out 0.6s;
   cursor: pointer;
 }
 
