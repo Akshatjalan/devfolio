@@ -7,6 +7,7 @@ body {
 
 ::selection {
   background-color: #000;
+  color: #fff;
 }
 
 html {
@@ -140,7 +141,7 @@ html {
 .skillName {
   color: #8a8a93;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* EXPERIENCE SECTION */
@@ -148,7 +149,7 @@ html {
 .experience {
   display: flex;
   justify-content: center;
-  height: 60vh;
+  /* height: 60vh; */
   gap: 10px;
 }
 
@@ -178,12 +179,39 @@ html {
   flex-grow: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
   background-color: #131315;
   color: #fff;
   border-radius: 20px;
   font-size: 36px;
   font-weight: 600;
+  padding: 32px;
+}
+
+.companyName {
+  font-size: 44px;
+  padding-bottom: 20px;
+}
+
+.companySkills {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.companySkillName {
+  font-size: 18px;
+  text-align: center;
+  background-color: #ba0e32;
+  padding: 8px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.companyPeriod {
+  font-size: 24px;
+  color: #8a8a93;
 }
 
 /* PROJECTS SECTION */
