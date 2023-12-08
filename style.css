@@ -52,6 +52,7 @@ html {
   font-size: 18px;
   display: flex;
   color: #8a8a93;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -67,6 +68,14 @@ html {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+.aboutHeading {
+  color: #ff6522;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
 }
 
 .nameSection {
@@ -140,7 +149,7 @@ html {
 }
 
 .skillName {
-  color: #8a8a93;
+  color: #cccccc;
   font-size: 36px;
   font-weight: 600;
   letter-spacing: -1px;
@@ -159,6 +168,7 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 68%;
   gap: 10px;
 }
 
@@ -180,7 +190,7 @@ html {
 }
 
 .experienceDesc {
-  color: #8a8a93;
+  color: #cccccc;
   font-size: 24px;
   font-weight: 600;
 }
@@ -270,7 +280,7 @@ html {
 }
 
 .projectDesc {
-  color: #8a8a93;
+  color: #cccccc;
   font-size: 20px;
   font-weight: 500;
   width: 50%;
@@ -595,6 +605,18 @@ html {
 
   .experience {
     flex-direction: column;
+  }
+
+  .experienceSection {
+    width: 100%;
+  }
+
+  .experienceName {
+    font-size: 24px;
+  }
+
+  .experienceDesc {
+    font-size: 20px;
   }
 
   .companyName {
