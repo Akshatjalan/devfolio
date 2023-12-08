@@ -11,7 +11,7 @@
 
 # Features
  Fully Responsive\
- Valid `HTML`, `CSS` and `JavaScript`\
+ Valid `HTML`, `CSS`, `JavaScript` with `GSAP scrolltrigger animations`
  
 # Sections 📚
 - [x] About me
