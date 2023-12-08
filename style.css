@@ -85,7 +85,7 @@ html {
   padding: 40px;
   border-radius: 20px;
   font-size: 44px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -2px;
   width: 400px;
 }
@@ -192,7 +192,7 @@ html {
 .experienceDesc {
   color: #cccccc;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .companySection {
