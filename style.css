@@ -192,13 +192,13 @@ html {
 .experienceDesc {
   color: #cccccc;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .companySection {
   flex-grow: 1;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   flex-direction: column;
   background-color: #131315;
@@ -206,7 +206,14 @@ html {
   border-radius: 20px;
   font-weight: 600;
   padding: 32px;
-  /* width: 100%; */
+}
+
+.experienceheading {
+  color: #ff6522;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
 }
 
 .companyName {
@@ -219,6 +226,7 @@ html {
   display: flex;
   gap: 10px;
   padding-top: 10px;
+  padding-bottom: 50%;
 }
 
 .companySkillName {
@@ -471,6 +479,10 @@ html {
     display: flex;
     flex-direction: column;
   }
+
+  .companySkills {
+    padding-bottom: 0%;
+  }
 }
 
 /* MOBILE VIEW */
@@ -637,6 +649,10 @@ html {
 
   .companySection {
     padding: 28px;
+  }
+
+  .companySkills {
+    padding-bottom: 0%;
   }
 
   /* SKILLS SECTION */

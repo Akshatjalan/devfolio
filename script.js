@@ -88,3 +88,35 @@ tl2.fromTo(
     duration: 1,
   }
 );
+
+// TIMELINE 3
+
+var tl3 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".experience",
+    start: "10% 80%",
+    end: "50% 70%",
+  },
+});
+
+tl3.fromTo(
+  ".companySection",
+  { opacity: 0, x: -100 },
+  {
+    opacity: 1,
+    x: 0,
+    ease: "power.out",
+    duration: 1,
+  }
+);
+
+tl3.fromTo(
+  ".experienceSection",
+  { opacity: 0, y: 100 },
+  {
+    opacity: 1,
+    y: 0,
+    ease: "power.out",
+    duration: 2,
+  }
+);
