@@ -20,7 +20,7 @@ tl.fromTo(
     opacity: 1,
     y: 0,
     ease: "power2.out",
-    duration: 1,
+    duration: 0.6,
   }
 );
 
@@ -31,6 +31,7 @@ tl.fromTo(
     opacity: 1,
     x: 0,
     ease: "power2.out",
+    duration: 1,
   }
 );
 
@@ -41,6 +42,7 @@ tl.fromTo(
     opacity: 1,
     x: 0,
     ease: "power2.out",
+    duration: 1,
   }
 );
 
@@ -118,5 +120,47 @@ tl3.fromTo(
     y: 0,
     ease: "power.out",
     duration: 2,
+  }
+);
+
+// TIMELINE 4
+
+var tl4 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".projects",
+    start: "10% 80%",
+    end: "50% 70%",
+  },
+});
+
+tl4.fromTo(
+  ".projects",
+  { opacity: 0, y: 100 },
+  {
+    opacity: 1,
+    y: 0,
+    ease: "power.out",
+    duration: 2,
+  }
+);
+
+// TIMELINE 5
+
+var tl5 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".contact",
+    start: "0% 80%",
+    end: "50% 70%",
+  },
+});
+
+tl5.fromTo(
+  ".contact",
+  { opacity: 0, y: 100 },
+  {
+    opacity: 1,
+    y: 0,
+    ease: "power.out",
+    duration: 1,
   }
 );
