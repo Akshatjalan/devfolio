@@ -251,7 +251,6 @@ html {
   flex-direction: column;
   background-color: #131315;
   color: #fff;
-  padding: 12px;
   border-radius: 20px;
 }
 
@@ -263,7 +262,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 20px;
+  padding: 32px;
 }
 
 .projectLink {
@@ -271,36 +270,35 @@ html {
   background-color: #fff;
   border-radius: 50%;
   padding: 16px;
+  rotate: 4deg;
   transition: all ease-in-out 0.2s;
 }
 .projectLink:hover {
-  background-color: #ff6522;
   transform: scale(1.05);
+  rotate: -8deg;
   cursor: pointer;
 }
 
 .projectName {
-  padding: 20px;
-  font-size: 40px;
+  font-size: 44px;
   font-weight: 600;
   color: #fff;
   letter-spacing: -1.5px;
+  padding-bottom: 16px;
 }
 
 .projectDesc {
   color: #cccccc;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
-  width: 50%;
+  padding-top: 0;
+  text-wrap: balance;
+  width: 94%;
 }
 
 .projectImg {
   width: 100%;
   border-radius: 20px;
-  transition: all ease-in-out 0.4s;
-}
-.projectImg:hover {
-  transform: scale(1.01);
 }
 
 /* SOCIALS SECTION */
@@ -560,14 +558,15 @@ html {
   /* PROJECTS SECTION */
   .projects {
     position: relative;
+    padding: 12px;
   }
 
   .projectHeader {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
-    padding: 16px;
+    padding: 20px;
   }
 
   .projectLink {
