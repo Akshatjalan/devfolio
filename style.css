@@ -190,7 +190,7 @@ html {
 }
 
 .experienceDesc {
-  color: #cccccc;
+  color: #d9d9d9;
   font-size: 24px;
   font-weight: 600;
 }
@@ -288,7 +288,7 @@ html {
 }
 
 .projectDesc {
-  color: #cccccc;
+  color: #d3d3d3;
   font-size: 22px;
   font-weight: 500;
   padding-top: 0;
@@ -586,6 +586,7 @@ html {
   .projectDesc {
     font-size: 18px;
     width: 100%;
+    line-height: 1.4;
   }
 
   .projectImg {
