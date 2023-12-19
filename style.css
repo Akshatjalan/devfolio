@@ -440,13 +440,13 @@ html {
   }
 
   .aboutSection {
-    gap: 4px;
+    gap: 24px;
     padding: 20px;
     font-size: 40px;
     letter-spacing: -2px;
     text-align: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .fieldName {
