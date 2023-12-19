@@ -475,7 +475,11 @@ html {
 
   .skills {
     display: flex;
-    flex-direction: column;
+    overflow: scroll;
+  }
+
+  .skills::-webkit-scrollbar {
+    display: none; /* hide scrollbar */
   }
 
   .companySkills {
