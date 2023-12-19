@@ -416,7 +416,7 @@ html {
 
 /* SMALL DESKTOP VIEW */
 
-@media (max-width: 1550px) {
+@media (max-width: 1450px) {
   .container {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -445,10 +445,8 @@ html {
     font-size: 40px;
     letter-spacing: -2px;
     text-align: center;
-  }
-
-  .myPic {
-    height: 160px;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .fieldName {
@@ -516,6 +514,7 @@ html {
     font-size: 28px;
     letter-spacing: -1px;
     text-align: center;
+    flex-direction: column;
   }
 
   .nameSection {
