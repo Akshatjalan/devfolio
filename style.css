@@ -51,7 +51,7 @@ html {
 .pageLinks a {
   font-size: 18px;
   display: flex;
-  color: #8a8a93;
+  color: #a1a1aa;
   font-weight: 600;
   text-decoration: none;
 }
@@ -81,7 +81,7 @@ html {
 .nameSection {
   flex-grow: 2;
   background-color: #131315;
-  color: #8a8a93;
+  color: #a1a1aa;
   padding: 40px;
   border-radius: 20px;
   font-size: 44px;
@@ -117,7 +117,7 @@ html {
 }
 
 .fieldName {
-  color: #8a8a93;
+  color: #a1a1aa;
   font-size: 36px;
 }
 
@@ -411,7 +411,7 @@ html {
 
 .footerRight {
   font-size: 18px;
-  color: #8a8a93;
+  color: #a1a1aa;
 }
 
 /* SMALL DESKTOP VIEW */
