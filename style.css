@@ -553,6 +553,7 @@ html {
   .skills {
     display: flex;
     flex-direction: column;
+    overflow: none;
   }
   .skills > div {
     font-size: 32px;
